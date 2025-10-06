@@ -1,0 +1,73 @@
+Script started on Mon Oct  6 22:52:55 2025
+[1m[7m%[27m[1m[0m                                                                                          [0m[27m[24m[Jjonas@jonas day-4-tasks % [K[?2004hnnpm s run script[?2004l
+[1mnpm[22m [33mwarn[39m [94mUnknown env config "verify-deps-before-run". This will stop working in the next major version of npm.[39m
+[1mnpm[22m [31merror[39m Missing script: "script"
+[1mnpm[22m [31merror[39m
+[1mnpm[22m [31merror[39m To see a list of scripts, run:
+[1mnpm[22m [31merror[39m   npm run
+[1mnpm[22m [31merror[39m A complete log of this run can be found in: /Users/jonas/.npm/_logs/2025-10-06T17_08_10_813Z-debug-0.log
+[1G[0K[1m[7m%[27m[1m[0m                                                                                          [0m[27m[24m[Jjonas@jonas day-4-tasks % [K[?2004hppnpm start[?2004l
+
+> day-4-tasks@0.1.0 start /Users/jonas/Desktop/30day30react/day-4-tasks
+> react-scripts start
+
+(node:21524) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:21524) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve 'App.css' in '/Users/jonas/Desktop/30day30react/day-4-tasks/src'
+Did you mean './App.css'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, /Users/jonas/Desktop/30day30react/day-4-tasks/node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.jsx
+  [1mLine 1:8:[22m   'react' is defined but never used                      [33m[4mno-unused-vars[24m[39m
+  [1mLine 26:9:[22m  'handleRemoveTodo' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m6:0-17[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'App.css' in '/Users/jonas/Desktop/30day30react/day-4-tasks/src'
+[1m[32mDid you mean './App.css'?[39m[22m[1m
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, /Users/jonas/Desktop/30day30react/day-4-tasks/node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve 'App.css' in '/Users/jonas/Desktop/30day30react/day-4-tasks/src'
+Did you mean './App.css'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, /Users/jonas/Desktop/30day30react/day-4-tasks/node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.jsx
+  [1mLine 1:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/App.jsx[39m[22m [1m[32m6:0-17[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'App.css' in '/Users/jonas/Desktop/30day30react/day-4-tasks/src'
+[1m[32mDid you mean './App.css'?[39m[22m[1m
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, /Users/jonas/Desktop/30day30react/day-4-tasks/node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/App.jsx
+  [1mLine 1:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/App.jsx
+  [1mLine 1:8:[22m  'react' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
